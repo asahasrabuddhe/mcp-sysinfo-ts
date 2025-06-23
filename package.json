@@ -1,0 +1,23 @@
+{
+  "name": "sysinfo-ts",
+  "type": "module",
+  "bin": {
+    "sysinfo": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 ./build/index.js"
+  },
+  "files": ["build"],
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "@types/node": "^24.0.3",
+    "zod": "^3.25.67"
+  }
+}
