@@ -17,7 +17,7 @@ A Model Context Protocol (MCP) server implementation in TypeScript that provides
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/asahasrabuddhe/mcp-sysinfo-ts.git
    cd sysinfo-ts
    ```
 
